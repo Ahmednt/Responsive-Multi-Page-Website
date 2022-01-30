@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+     <title>Nizwa Clinic Eyes Laser Center</title>
+</head>
+<body>
+<section class="sub-header">
+ <nav>
+   <a href="index.html"><img src="images/eys.png"></a>
+   <div class="nav-links" id="navLinks">
+<i class="far fa-times-circle" onclick="hideMenu()"></i>
+     <ul>
+       <li><a href="Home.html">Home</a></li>
+       <li><a href="Doctors.html">Doctors</a></li>
+       <li><a href="LaserEyesSurgery.html">Laser Eye Surgery</a></li>
+       <li><a href="LaserEyeTechnology.html">Laser Eye Technology</a></li>
+        <li><a href="ContactUs.html">Contact</a></li>
+       <li><a href="About.html">About</a></li>
+     </ul>
+   </div>
+   <i class="fas fa-ellipsis-h" onclick="showMenu()"></i>
+ </nav>
+  <h1>Contact Us</h1>
+</section>
+
+<!-------contact us page------>
+<section class="location">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1837.2246826107798!2d57.53724519171173!3d22.93367212220905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8ef08e929ecde1%3A0x43f3bf5c566c48e7!2z2YjZhNin2YrYqSDZhtiy2YjZiQ!5e0!3m2!1sar!2som!4v1643259717148!5m2!1sar!2som" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-us">
+<div class="row">
+  <div class="contact-col">
+    <div>
+<i class="fas fa-home"></i>
+<span>
+  <h5>Nizwa Road, near HyperMarket Lulu,</h5>
+  <p>Al-Dakhliyya,Nizwa, OM</p>
+</span>
+    </div>
+    <div>
+<i class="fas fa-phone"></i>
+<span>
+  <h5>+968 058000</h5>
+  <p>Sunday to Thursday, 7:30APM to 6:30PM</p>
+</span>
+    </div>
+    <div>
+<i class="fas fa-envelope-open"></i>
+<span>
+  <h5>support@nizwacliniceyeslasercenter.om</h5>
+  <p>Mail Us any query</p>
+</span>
+    </div>
+  </div>
+
+  <div class="contact-col">
+
+    <form action="form-handler.php" method="post">
+      <input type="text" name="name"  placeholder="Enter your name" required>
+      <input type="email"  name="email" placeholder="Enter your emailaddress" required>
+      <input type="text" name="subject" placeholder="Enter your subject" required>
+      <textarea  rows="8" cols="80" name="message" placeholder="Enter your Message" required></textarea>
+      <button type="submit" class="hero-btn red-btn">SendMessage</button>
+
+    </form>
+  </div>
+
+</div>
+
+</section>
+
+
+
+<section class="footer">
+  <h4>How to Reach Us</h4>
+   <div class="icon">
+
+      <li> <a href="#" class="fab fa-facebook"></a> NCELC,</li>
+      <li> <a href="#" class="fab fa-twitter"></a> NCELC,</li>
+      <li> <a href="#" class="fab fa-instagram"></a> NCELC,</li>
+      <li> <a href="#" class="fab fa-linkedin"></a> NCELC,</li>
+      <li> <a href="#" class="fad fa-mobile"></a>+968-0580001,</li>
+      <li> <a href="#" class="fas fa-envelope-open"></a>support@nizwacliniceyeslasercenter.om</li>
+
+  </div>
+</section>
+
+
+<footer >
+  <p class="footer">
+    © 2022 Nizwa Clinic Eyes Laser Center | Design by Ahmeddeveloper01@gmail.com
+  </p>
+  <li> <a href="https://www.instagram.com/ahmeddeveloper01/" class="fab fa-instagram"></a></li>
+  <li> <a href="https://twitter.com/ahmedalskheilic" class="fab fa-twitter"></a></li>
+  <li> <a href="https://www.linkedin.com/in/ahmed-alshekili-a7b590108" class="fab fa-linkedin"></a> </li>
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-----JS for toggle menu------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
